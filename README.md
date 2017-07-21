@@ -1,4 +1,4 @@
-# PSoC5_USB_LogicAnalyzer
+# PSoC5 16ch USB Logic Analyzer
 This is an fx2lafw compatible firmware which can be used by [sigrok](https://sigrok.org/).
 
 # Pin assignment
