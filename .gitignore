@@ -1,52 +1,27 @@
-# Prerequisites
-*.d
+#
+# .gitignore file for PSoC Creator 4.0
+#
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# User preferences
+*.cyprj.*
+*.cywrk.*
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Log files
+*.log
+*Log.txt
 
-# Precompiled Headers
-*.gch
-*.pch
+# Temp directry
+*.cydsn/codegentemp/*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Automatically generated files
+*.cydsn/Generated_Source/*
+*.cydsn/CortexM3/*
+*.cydsn/ARM_GCC_*
+*.cydsn/Export/*
+*.cycdx
+*.cyfit
+*.rpt
+*.svd
+*timing.html
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+Backup/USB_Audio_PSoC5LP_I2S._4.0_Update_1.zip
