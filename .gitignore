@@ -14,7 +14,7 @@
 *.cydsn/codegentemp/*
 
 # Automatically generated files
-*.cydsn/Generated_Source/*
+*.cydsn/Generated_Source/PSoC5/*
 *.cydsn/CortexM3/*
 *.cydsn/ARM_GCC_*
 *.cydsn/Export/*
@@ -24,4 +24,4 @@
 *.svd
 *timing.html
 
-Backup/USB_Audio_PSoC5LP_I2S._4.0_Update_1.zip
+!USBLogicAnalyzer.cydsn/Generated_Source/PSoC5/USBFS_vnd.c
