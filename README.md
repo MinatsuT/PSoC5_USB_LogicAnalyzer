@@ -19,5 +19,7 @@ P0_7 -- Ch15
 GND  -- GND
 </pre>
 
+![Pin Assign](https://github.com/MinatsuT/PSoC5_USB_LogicAnalyzer/blob/master/PSoC5_LogicAnalyzer.png?raw=true)
+
 # Limitations
 Maximum capturing frequency is 250kHz. This limitation comes from bandwidth of USB Full Speed (12Mbps).
